@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FitLearn — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><img src="images/logo.svg" class="brand-logo" alt="FitLearn logo"/>FitLearn</h1>
+      <nav>
+
+        <ul id="main-nav" class="nav-list">
+
+          <li><a href="index.html">Home</a></li>
+
+          <!-- ▼▼▼ DROPDOWN ADDED HERE ▼▼▼ -->
+          <li class="dropdown">
+            <a href="workouts.html" class="dropdown-toggle">Workouts ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="upper-body.html">Upper Body</a></li>
+              <li><a href="lower-body.html">Lower Body</a></li>
+              <li><a href="full-body.html">Full Body</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="nutrition.html" class="dropdown-toggle">Nutrition ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="meals.html">Meals</a></li>
+              <li><a href="snacks.html">Snacks</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main class="container">
+    <div class="hero">
+      <h2>Welcome to FitLearn</h2>
+      <p>Your personal fitness and nutrition guide</p>
+    </div>
+
+    <section class="home-grid">
+      <a href="workout.html" class="home-card card-workout">
+        <div class="card-icon">🏋️</div>
+        <h3>Workouts</h3>
+        <p>Explore fitness routines tailored to your goals</p>
+        <span class="card-cta">Start Training →</span>
+      </a>
+
+      <a href="nutrition.html" class="home-card card-nutrition">
+        <div class="card-icon">🥗</div>
+        <h3>Nutrition</h3>
+        <p>Learn healthy eating habits and meal planning</p>
+        <span class="card-cta">View Nutrition →</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Backed by general fitness tips. Always consult a trusted adult or professional before starting new exercises.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

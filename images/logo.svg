@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">FitLearn logo</title>
+  <rect width="120" height="120" rx="18" fill="#10b981" />
+  <g fill="#fff" font-family="Verdana, Arial, sans-serif" font-weight="700">
+    <text x="50%" y="52%" text-anchor="middle" dominant-baseline="middle" font-size="48">FL</text>
+  </g>
+</svg>

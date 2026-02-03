@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FitLearn — Workouts</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><img src="images/logo.svg" class="brand-logo" alt="FitLearn logo"/>FitLearn</h1>
+      <nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+        <ul id="main-nav" class="nav-list">
+
+          <li><a href="index.html">Home</a></li>
+
+          <!-- ▼▼▼ DROPDOWN ADDED HERE ▼▼▼ -->
+          <li class="dropdown">
+            <a href="workouts.html" class="dropdown-toggle">Workouts ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="upper-body.html">Upper Body</a></li>
+              <li><a href="lower-body.html">Lower Body</a></li>
+              <li><a href="full-body.html">Full Body</a></li>
+            </ul>
+          </li>
+          <!-- ▲▲▲ END DROPDOWN ▲▲▲ -->
+
+          <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main class="container">
+    <h2>Workouts</h2>
+    <p>Below are simple routines grouped by goal. Click each card to reveal steps.</p>
+
+    <section class="workout-grid">
+      <article class="workout-card">
+        <h3>Full-Body Beginner Circuit</h3>
+        <p class="muted">Goal: General fitness</p>
+        <ul>
+          <li>10 squats</li>
+          <li>10 push-ups (knees ok)</li>
+          <li>20 second plank</li>
+          <li>Repeat 3 times</li>
+        </ul>
+      </article>
+
+      <article class="workout-card">
+        <h3>Cardio Blast</h3>
+        <p class="muted">Goal: Improve heart health</p>
+        <ul>
+          <li>30 seconds jumping jacks</li>
+          <li>30 seconds high knees</li>
+          <li>60 second brisk walk</li>
+          <li>Repeat 4 cycles</li>
+        </ul>
+      </article>
+
+      <article class="workout-card">
+        <h3>Flexibility & Mobility</h3>
+        <p class="muted">Goal: Improve flexibility</p>
+        <ul>
+          <li>10 hamstring stretches (30s each)</li>
+          <li>10 shoulder rolls</li>
+          <li>Deep breathing and cool down</li>
+        </ul>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Backed by general fitness tips. Always consult a trusted adult or professional before starting new exercises.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
