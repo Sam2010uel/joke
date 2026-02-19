@@ -28,10 +28,7 @@ html {
   font-size: 16px;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 h1, h2, h3, h4, h5 {
   color: #073b2f;
@@ -47,7 +44,7 @@ p { line-height: 1.65; color: #233; margin: 0 0 1rem 0; }
 
 .lead { font-size: 1.1rem; color: #0b5e47; opacity: 0.95; }
 .muted { color: #6b6b6b; font-size: 0.95rem; }
-.eyebrow { text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; color: #0b5e47; }
+.eyebrow { text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; color: #0b5e25; }
 
 .card-text { color: #333; font-size: 1rem; line-height: 1.6; }
 
@@ -471,7 +468,8 @@ img {
 }
 
 .nutrition-text li {
-  margin: 0.45rem 0;
+  margin: 0.45rem 0; 
+  color: #333;
 }
 
 .nutrition-section {
@@ -615,8 +613,13 @@ img {
 }
 
 .nutrition-tips li::before {
-  content: '🎯';
+  content: '★';
   position: absolute;
   left: 0;
   font-size: 1.2rem;
+}
+.citations-list {
+    list-style: none;
+    padding: 0;
+  margin: 0;
 }
